@@ -1,0 +1,43 @@
+# RACE IDENTIFICATION
+race:
+  name: "Australian Grand Prix"
+  year: 2026
+  round: 1
+  circuit: "Albert Park"
+  laps: 58
+
+# MONTE-CARLO SETTINGS
+simulation:
+  n_simulations: 100000
+  random_seed: 42
+
+# QUALIFYING / GRID SCENARIOS
+qualifying:
+  grid_source: "baseline"     # baseline | good | bad
+  grid_effect_weight: -0.03   # effect per grid position
+
+# CHAOS & RELIABILITY
+chaos:
+  dnf_multiplier: 1.0         # >1.0 = rain / chaos
+  noise_std: 0.05             # race randomness
+  safety_car_probability: 0.30
+
+# SCORING SYSTEM
+scoring:
+  points_table:
+    1: 25
+    2: 18
+    3: 15
+    4: 12
+    5: 10
+    6: 8
+    7: 6
+    8: 4
+    9: 2
+    10: 1
+
+# OUTPUT CONTROL
+outputs:
+  save_simulation: true
+  save_preview_table: true
+  output_prefix: "australian_gp_2026"
