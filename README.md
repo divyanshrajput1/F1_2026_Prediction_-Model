@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Machine Learning](https://img.shields.io/badge/ML-XGBoost-orange)
+![Simulation](https://img.shields.io/badge/Simulation-Monte%20Carlo-green)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🏎️ F1 2026 Race & Season Prediction Engine
 
 A full end-to-end **machine learning + Monte-Carlo simulation system** for predicting Formula 1 race outcomes and season championships for the **2026 season**.
