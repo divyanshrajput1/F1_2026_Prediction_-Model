@@ -15,7 +15,6 @@ This project goes far beyond simple ML models — it integrates:
 - config-driven race logic
 - Monte-Carlo simulations
 - scenario analysis
-- full season championship simulation
 
 Built entirely in **Python**, following **real ML engineering practices**.
 
@@ -84,7 +83,7 @@ Season Championship
 
 1️⃣ Clone repository
 ```bash
-git clone https://github.com/<your-username>/F1_2026_Prediction_ Model.git
+git clone https://github.com/divyanshrajput1/F1_2026_Prediction_ Model.git
 cd F1_2026_Prediction_ Model
 
 2️⃣ Create environment
